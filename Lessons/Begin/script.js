@@ -1,5 +1,4 @@
-/* ReactDOM.render(<h1>Hello, React!</h1>, document.querySelector("#root"));
- ReactDOM.render(
+/* ReactDOM.render(
     <ul>
         <li>First</li>
         <li>Second</li>
@@ -71,3 +70,6 @@ function PageList() {
 }
 
 ReactDOM.render(<PageList />, document.querySelector("#root"));
+
+
+// 1h06m
