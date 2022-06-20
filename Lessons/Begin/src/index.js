@@ -56,20 +56,20 @@ ReactDOM.render(navbar, document.querySelector("#root")); */
 ReactDOM.render(page, document.querySelector("#root"));
 // console.log(page); */
 
-function PageList() {
+import React from "react";
+import ReactDOM from "react-dom";
+import Header from "./Header";
+import Footer from "./Footer";
+import MainContent from "./MainContent";
+
+function Page() {
     return (
         <div>
-            <h1>ReactJS</h1>
-            <ol>
-                <li>Aprendendo</li>
-                <li>a usar</li>
-                <li>ReactJS</li>
-            </ol>
+            <Header />
+            <MainContent />
+            <Footer />
         </div>
     );
 }
 
-ReactDOM.render(<PageList />, document.querySelector("#root"));
-
-
-// 1h06m
+ReactDOM.render(<Page />, document.querySelector("#root"));
