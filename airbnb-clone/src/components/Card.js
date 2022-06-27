@@ -3,10 +3,10 @@ import React from "react";
 export default function Card(props) {
     return (
         <div className="card">
-            <img className="card--img" src={props.card} alt="card_01" />
+            <img src={`../images/${props.img}`} alt="card" />
             <div className="card--stats">
-                <img className="star--icon" src={props.star} alt="star_icon" />
-                <span>5.0</span>
+                <img className="star--icon" src="../images/star.png" alt="star" />
+                <span>{props.rating}</span>
                 <span className="gray">(6) * </span>
                 <span className="gray">USA</span>
             </div>
